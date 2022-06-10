@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SauceLab testing" duration-ms="7577" started-at="2022-05-13T15:37:37Z" finished-at="2022-05-13T15:37:45Z">
+    <groups>
+    </groups>
+    <test name="chrome" duration-ms="7577" started-at="2022-05-13T15:37:37Z" finished-at="2022-05-13T15:37:45Z">
+      <class name="saucelab.SauceTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.reflect.Method)[pri:0, instance:saucelab.SauceTest@6b26e945]" name="setup" is-config="true" duration-ms="5471" started-at="2022-05-13T11:37:37Z" finished-at="2022-05-13T11:37:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void saucelab.SauceTest.doLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:saucelab.SauceTest@6b26e945]" name="doLogin" duration-ms="1708" started-at="2022-05-13T11:37:43Z" finished-at="2022-05-13T11:37:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:saucelab.SauceTest@6b26e945]" name="tearDown" is-config="true" duration-ms="378" started-at="2022-05-13T11:37:44Z" finished-at="2022-05-13T11:37:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- saucelab.SauceTest -->
+    </test> <!-- chrome -->
+  </suite> <!-- SauceLab testing -->
+</testng-results>

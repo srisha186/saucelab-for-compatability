@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [SauceLab testing]" parallel="tests">
+  <test name="chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="saucelab.SauceTest">
+        <methods>
+          <include name="setup"/>
+          <include name="doLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- saucelab.SauceTest -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+  <test name="Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="saucelab.SauceTest">
+        <methods>
+          <include name="setup"/>
+          <include name="doLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- saucelab.SauceTest -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [SauceLab testing] -->
